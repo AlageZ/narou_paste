@@ -45,10 +45,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-#lr_button:hover{
+#buttons>*:hover{
     filter: brightness(1.3);
 }
-#lr_button:active{
+#buttons>*:active{
     filter: brightness(0.8);
 }
 #buttons>*>span{
@@ -69,7 +69,4 @@ body{
     line-height: normal;
     overflow-y: scroll;
     overflow-y: scroll;
-}
-#rl_button{
-    filter: brightness(0);
 }
